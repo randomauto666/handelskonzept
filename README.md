@@ -72,7 +72,7 @@ Tausch wird atomar ausgeführt → Log-Eintrag
 │  [ ][ ][ ][ ]  │▒▒│  [ ][ ][ ][ ]         │
 │  [ ][ ][ ][ ]  │▒▒│  [ ][ ][ ][ ]         │
 ├────────────────┼──┼───────────────────────┤
-│ [💰 Geld]  [✔ Bestätigen]  [✖ Abbrechen]  │
+│ [💰 Geld]  [✔ Bestätigen]  [✖ Abbrechen] │
 └────────────────┴──┴───────────────────────┘
 ```
 
