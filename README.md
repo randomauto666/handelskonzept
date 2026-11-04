@@ -1,4 +1,4 @@
-# 🤝 Trade-System – Konzept
+# Trade-System – Konzept
 
 > Sicherer Spieler-zu-Spieler-Handel per `/trade` für OPSUCHT (Paper 1.21.11)
 > GUI im Button-Stil (Bedrock-kompatibel, wie beim Mail System)
