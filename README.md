@@ -51,9 +51,9 @@ Tausch wird atomar ausgeführt → Log-Eintrag
 ```
 
 **Voraussetzungen für eine Anfrage:**
-- Beide Spieler online, nicht im Kampf (Combat-Tag), gleiche Welt
+- Beide Spieler online, gleicher Server (z.b. CB01)
 - Max. Distanz (Standard 30 Blöcke) – optional abschaltbar
-- Ziel hat Anfragen nicht deaktiviert oder den Sender blockiert
+- Ziel hat Anfragen nicht deaktiviert oder den Sender blockiert (/ignore)
 - Cooldown zwischen Anfragen (Standard 10s)
 
 ---
@@ -82,7 +82,7 @@ Tausch wird atomar ausgeführt → Log-Eintrag
 
 ### 4.2 Bedrock: Button-Formulare
 
-Bedrock kann keine Drag-and-Drop-Inventare sinnvoll bedienen, daher läuft alles über **Forms (Buttons)**, wie beim Mail System:
+Bedrock kann keine Drag-and-Drop-Inventare sinnvoll bedienen, daher läuft alles über **Forms (Buttons)**:
 
 **Hauptmenü** (Titel: `OPSUCHT » Trade mit B`)
 
@@ -131,7 +131,7 @@ Du bietest:      B bietet:
 
 ## 6. Wirtschafts-Integration
 
-- Anbindung über **Vault** (`Economy`-Interface) → funktioniert mit jedem Wirtschafts-Plugin
+- Anbindung über **Vault** (`Economy`-Interface) → OPSUCHT Wirtschaftssystem
 - Optionale **Handelssteuer** (z. B. 2 %) als Geldsenke
 - Geld wird erst beim finalen Tausch abgebucht, nicht beim Eintragen
 
@@ -196,11 +196,11 @@ trade:
 ## 10. Technische Umsetzung
 
 - **Paper 1.21.11**, Java 21
-- Package: `de.randomauto.trade`
+- Package: `de.opsucht.trade`
 - Struktur:
 
 ```
-de.randomauto.trade
+de.opsucht.trade
 ├── TradePlugin.java
 ├── command/TradeCommand.java
 ├── session/TradeSession.java        # Zustand eines Handels
