@@ -1,6 +1,6 @@
 # Trade-System – Konzept
 
-> Sicherer Spieler-zu-Spieler-Handel per `/trade` für OPSUCHT (Paper 1.21.11)
+> Sicherer Spieler-zu-Spieler-Handel per `/trade` für OPSUCHT
 > GUI im Button-Stil (Bedrock-kompatibel, wie beim Mail System)
 
 ---
